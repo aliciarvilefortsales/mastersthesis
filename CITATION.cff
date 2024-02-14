@@ -1,0 +1,49 @@
+# See https://citation-file-format.github.io/ to learn more.
+
+cff-version: 1.2.0
+message: "To cite this master's thesis in publications use:"
+title: "Associations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor"
+keywords:
+  - Pregnancy
+  - Sleep
+  - Sleep-wake cycle
+  - Sleep quality
+  - Duration of sleep
+  - Childbirth
+  - Duration of childbirth
+  - Actigraphy
+  - MCTQ
+  - PSQI
+  - DASS
+authors:
+- family-names: Sales
+  given-names: Alícia Rafaelly Vilefort
+  email: aliciarvilefortsales@gmail.com
+  orcid: https://orcid.org/0000-0003-0004-4487
+repository-code: https://github.com/aliciarvilefortsales/mastersthesis/
+url: https://aliciarvilefortsales.github.io/mastersthesis/
+contact:
+- family-names: Sales
+  given-names: Alícia Rafaelly Vilefort
+  email: aliciarvilefortsales@gmail.com
+  orcid: https://orcid.org/0000-0003-0004-4487
+type: software
+version: 0.0.0.9000
+license: MIT
+identifiers:
+- type: url
+  value: https://aliciarvilefortsales.github.io/mastersthesis/
+preferred-citation:
+  type: unpublished
+  title: "Associations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor"
+  authors:
+  - family-names: Sales
+    given-names: Alícia Rafaelly Vilefort
+    email: aliciarvilefortsales@gmail.com
+    orcid: https://orcid.org/0000-0003-0004-4487
+  year: "2024"
+  address: São Paulo
+  school: University of São Paulo
+  langid: en-us
+  url: https://aliciarvilefortsales.github.io/mastersthesis/
+  note: Preliminary version

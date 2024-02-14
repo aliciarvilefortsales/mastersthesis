@@ -1,0 +1,18 @@
+<!-- %:::% .common h1 begin %:::% -->
+# Acknowledgments {.unnumbered}
+<!-- %:::% .common h1 end %:::% -->
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+<!-- %:::% acknowledgments body begin %:::% -->
+I would like to acknowledge and express my gratitude to the following persons and organizations:
+
+The [Support Program for Student Permanence and Education (PAPFE)](https://prip.usp.br/apoio-estudantil/) of USP, which enabled me to get this far.
+
+The [Coordination for the Improvement of Higher Education Personnel (CAPES)](https://www.gov.br/capes/), for funding this work and enabling my presence in graduate studies.
+<!-- %:::% acknowledgments body end %:::% -->

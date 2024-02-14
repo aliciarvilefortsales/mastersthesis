@@ -1,0 +1,34 @@
+<!-- %:::% .common h1 begin %:::% -->
+# Resumo {.unnumbered}
+<!-- %:::% .common h1 end %:::% -->
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+{{< var author-surname >}}, `r sub("\\. .\\.$", "", env_vars[["author-initials"]])`. ({{< var year >}}). _Associações entre a duração e a qualidade do sono de gestantes no terceiro trimestre com a duração do trabalho de parto_ [Dissertação de Mestrado, Universidade de São Paulo].
+
+::: {.content-visible when-format="pdf"}
+<!-- %:::% foreign-abstract reference begin %:::% -->
+Sales, A. R. V. ({\imprimirdata}). \textit{Associações entre a duração e a qualidade do sono de gestantes no terceiro trimestre com a duração do trabalho de parto} [Dissertação de Mestrado, Universidade de São Paulo].
+<!-- %:::% foreign-abstract reference end %:::% -->
+:::
+
+<!-- %:::% foreign-abstract body begin %:::% -->
+O texto abaixo está relacionado ao __projeto__ desta dissertação. O resumo final só poderá ser produzido quando a pesquisa for finalizada.
+
+Dentre as alterações biopsicossociais que ocorrem durante a gravidez estão as mudanças no padrão do ciclo sono-vigília. Pesquisas sugerem que há associações entre a duração e a qualidade do sono de gestantes no período pré-natal com desfechos adversos na saúde materno infantil. O objetivo primário deste projeto é investigar a presença/ausência de associações significativas entre a duração e a qualidade do sono de gestantes no terceiro trimestre com a duração do trabalho de parto. Para isso, será realizado um estudo com 133 gestantes no terceiro trimestre gestacional acompanhadas na casa de parto de Sapopemba, localizada no município de São Paulo. Serão coletados dados demográficos, antropométricos, obstétricos, actigráficos, dados relacionados ao sono e ao estado psicológico das participantes, além de dados secundários dos prontuários e cadernetas das gestantes. O estudo já obteve todas as aprovações éticas para sua operação por parte das autoridades competentes. Os resultados serão analisados pela comparação das médias entre grupos por meio de uma análise de covariância (ANCOVA). A hipótese básica é que uma menor qualidade e duração de sono ao longo da gestação estão associadas a uma maior duração do trabalho de parto. Além de gerar conhecimento para um assunto de interesse público, espera-se que os resultados deste projeto incentivem e colaborem com a criação de novos serviços e tecnologias de acompanhamento de gestantes.
+<!-- %:::% foreign-abstract body end %:::% -->
+
+__Palavras-chaves__: Gestação. Gravidez. Sono. Ciclo sono-vigília. Qualidade do sono. Duração do sono. Parto. Duração do parto. Actigrafia. MCTQ. PSQI. DASS.
+
+::: {.content-visible when-format="pdf"}
+<!-- %:::% foreign-abstract keywords begin %:::% -->
+\begin{tabular}{p{3.6cm} p{12.3cm}}
+  \textbf{Palavras-chaves}: &  Gestação. Gravidez. Sono. Ciclo sono-vigília. Qualidade do sono. Duração do sono. Parto. Duração do parto. Actigrafia. MCTQ. PSQI. DASS.
+\end{tabular}
+<!-- %:::% foreign-abstract keywords end %:::% -->
+:::

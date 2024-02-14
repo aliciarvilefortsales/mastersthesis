@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _slides
+  render: [index.qmd]
+  pre-render: "R/quarto-pre-render-revealjs.R"
+  post-render: "R/quarto-post-render-revealjs.R"
+
+title: >
+  Associations between the duration and quality of sleep of pregnant women in
+  the third trimester with the duration of labor
+author: "Alícia Rafaelly Vilefort Sales"
+institute: "University of São Paulo"
+date: today
+
+format:
+  revealjs:
+    lang: en
+    csl: english-apa-author-date.csl
+    keyboard: true
+    controls: true
+    controls-layout: bottom-right
+    preview-links: auto
+    theme: [default, scss/slides.scss]
+    chalkboard: true

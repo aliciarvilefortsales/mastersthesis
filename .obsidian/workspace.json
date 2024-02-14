@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "973fdb2b6085377c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0648f5cb48350f19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "002602f343338cfd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "qmd/chapter-1.qmd",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "23593b0d16323158",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "qmd/chapter-6.qmd",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0f3fffc213ca6f8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "qmd/list-of-abbreviations.qmd",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6c845cfd11f4a957",
+    "type": "split",
+    "children": [
+      {
+        "id": "a25ce182845916a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8356ee2ff131600b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d7f337a9a291b6d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "14667d773bae6398",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fcea65777eaf760",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94012e902265b80e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bc8c48bd0acbe9c3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3bc2836e7f153203",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "qmd/list-of-abbreviations.qmd",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8dfee6add6e8ac09",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "qmd/list-of-abbreviations.qmd",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "335e6363339c95d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "157e8a90e45025a3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "qmd/list-of-abbreviations.qmd"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-grammarly-plugin:Enable Grammarly": false
+    }
+  },
+  "active": "0f3fffc213ca6f8b",
+  "lastOpenFiles": [
+    "qmd/chapter-1.qmd",
+    "qmd/chapter-6.qmd",
+    "README.html",
+    "README.knit.md",
+    "Ecology-of-sleep-and-circadian-phenotypes-of-the-Brazilian-population.tex",
+    "Ecology-of-sleep-and-circadian-phenotypes-of-the-Brazilian-population.pdf",
+    "index.pdf",
+    "index.log",
+    "index.toc",
+    "index.lot",
+    "index.lof",
+    "index.aux",
+    "qmd/appendice-ch-6.knit.md",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-36-1.png",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-31-1.png",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-30-1.png",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-29-1.png",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-20-1.png",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-19-1.png",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-14-1.png",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-13-1.png",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-12-1.png",
+    "qmd/appendice-ch-6_files/figure-pdf/unnamed-chunk-4-1.png",
+    "qmd/appendice-ch-5.knit.md",
+    "qmd/appendice-ch-4.knit.md",
+    "qmd/appendice-ch-3.knit.md",
+    "qmd/appendice-ch-2.knit.md",
+    "qmd/references.knit.md",
+    "qmd/chapter-7.knit.md",
+    "qmd/chapter-6.knit.md",
+    "qmd/chapter-5.knit.md",
+    "qmd/chapter-4.knit.md",
+    "qmd/chapter-3.knit.md",
+    "qmd/chapter-2.knit.md",
+    "index.knit.md",
+    "qmd/chapter-1.knit.md",
+    "qmd/list-of-terms.knit.md",
+    "qmd/list-of-symbols.knit.md",
+    "qmd/list-of-abbreviations.knit.md",
+    "qmd/foreign-abstract.knit.md",
+    "qmd/vernacular-abstract.knit.md",
+    "qmd/epigraph.knit.md",
+    "qmd/acknowledgments.knit.md",
+    "qmd/inscription.knit.md",
+    "qmd/errata.knit.md",
+    "renv/library/R-4.3/x86_64-w64-mingw32/targets/tar_watch/about.md"
+  ]
+}

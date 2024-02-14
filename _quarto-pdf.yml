@@ -1,0 +1,48 @@
+project:
+  type: book
+  output-dir: _print
+  pre-render: "R/quarto-pre-render-pdf.R"
+  post-render: "R/quarto-post-render-pdf.R"
+
+book:
+  date: today
+  date-format: "YYYY"
+  chapters:
+    - index.qmd
+    - qmd/chapter-2.qmd
+    - qmd/chapter-3.qmd
+    - qmd/chapter-4.qmd
+    - qmd/glossary.qmd
+  appendices:
+    - qmd/appendice-chapter-1.qmd
+    - qmd/appendice-chapter-2.qmd
+    - qmd/appendice-chapter-3.qmd
+
+filters:
+  - latex-environment
+commands: legend
+
+format:
+  abnt-pdf:
+    index-page: true
+    zotero: true
+    biblio-style: apa
+    biblio-title: REFERENCES
+    biblio-footnote: >
+      In accordance with the American Psychological Association
+      (APA) Style, 7th edition.
+    bibhang: 0.5cm
+    bibparsep: 1ex
+    location: "São Paulo"
+    supervisor: "Christiane Borges do Nascimento Chofakian"
+    academic-title: "Master"
+    academic-degree: "Master of Science"
+    type-of-work: "Thesis"
+    area-of-concentration: "Healthcare"
+    university: "University of São Paulo"
+    school: "School of Arts, Sciences and Humanities"
+    program: "Graduate Program in Nursing"
+    version-note: "Preliminary version"
+    include-in-header: tex/include-in-header.tex
+    include-before-body: tex/include-before-body.tex
+    include-after-body: tex/include-after-body.tex

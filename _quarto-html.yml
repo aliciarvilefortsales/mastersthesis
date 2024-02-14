@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: _web
+  pre-render: "R/quarto-pre-render-html.R"
+  post-render: "R/quarto-post-render-html.R"
+
+book:
+  date: today
+  date-format: "YYYY-MM-DD"
+  repo-actions: [edit, issue]
+  sidebar:
+    tools:
+      - icon: file-earmark-pdf-fill
+        href: index.pdf
+  chapters:
+    - index.qmd
+    - part: "Preliminary Pages"
+      chapters:
+        - qmd/errata.qmd
+        - qmd/inscription.qmd
+        - qmd/acknowledgments.qmd
+        - qmd/epigraph.qmd
+        - qmd/vernacular-abstract.qmd
+        - qmd/foreign-abstract.qmd
+        - qmd/list-of-abbreviations.qmd
+        - qmd/list-of-symbols.qmd
+    - part: "Chapters"
+      chapters:
+        - qmd/chapter-1.qmd
+        - qmd/chapter-2.qmd
+        - qmd/chapter-3.qmd
+        - qmd/chapter-4.qmd
+    - qmd/references.qmd
+    - qmd/glossary.qmd
+  appendices:
+    - qmd/appendice-chapter-1.qmd
+    - qmd/appendice-chapter-2.qmd
+    - qmd/appendice-chapter-3.qmd
+
+format:
+  abnt-html:
+    csl: english-apa-author-date.csl

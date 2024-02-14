@@ -1,0 +1,31 @@
+<!-- %:::% slides-methods begin %:::% -->
+## Methods {.smaller}
+
+* Problem approach method: Hypothetico-deductive method [@popper1979]
+* Procedure method: Statistical methods
+
+```{mermaid}
+%%| fig-width: 6.5
+
+flowchart LR
+  A[P1] --> B(TT)
+  B --> C[EE]
+  C --> D[P2]
+```
+
+## Hypothesis test {.smaller}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
+
+## Elegibility criteria {.smaller}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
+
+## Population {.smaller}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
+
+## Sample (raw) characteristics {.smaller}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
+<!-- %:::% slides-methods end %:::% -->

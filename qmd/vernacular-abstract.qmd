@@ -1,0 +1,34 @@
+<!-- %:::% .common h1 begin %:::% -->
+# Abstract {.unnumbered}
+<!-- %:::% .common h1 end %:::% -->
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+{{< var author-surname >}}, `r sub("\\. .\\.$", "", env_vars[["author-initials"]])`. ({{< var year >}}). _{{< var title >}}_ [{{< var academic-title >}}'s {{< var type-of-work >}}, {{< var university >}}].
+
+::: {.content-visible when-format="pdf"}
+<!-- %:::% vernacular-abstract reference begin %:::% -->
+Sales, A. R. V. ({\imprimirdata}). \textit{\imprimirtitulo} [{\imprimirtipodetituloacademico}'s {\imprimirtipotrabalho}, {\imprimiruniversidade}].
+<!-- %:::% vernacular-abstract reference end %:::% -->
+:::
+
+<!-- %:::% vernacular-abstract body begin %:::% -->
+The text below is related to the __project__ of this thesis. The final abstract can only be produced when the research is completed.
+
+Among the biopsychosocial changes that occur during pregnancy are alterations in the sleep-wake cycle pattern. Research suggests associations between the duration and quality of sleep in pregnant women during the prenatal period and adverse outcomes in maternal and infant health. The primary objective of this project is to investigate the presence/absence of significant associations between the duration and quality of sleep in pregnant women during the third trimester and the duration of labor. For this purpose, a study will be conducted involving 133 pregnant women in the third trimester, followed at the Sapopemba birthing center located in the municipality of São Paulo, Brazil. Demographic, anthropometric, obstetric, actigraphic, sleep-related, and psychological state data of the participants will be collected, along with secondary data from the pregnant women's records. The study has already obtained all ethical approvals for its operation from the competent authorities. The results will be analyzed by comparing the means between groups through an analysis of covariance (ANCOVA). The basic hypothesis is that lower sleep quality and duration throughout gestation are associated with longer labor duration. In addition to generating knowledge on a matter of public interest, it is expected that the results of this project will encourage and contribute to the creation of new services and technologies for monitoring pregnant women.
+<!-- %:::% vernacular-abstract body end %:::% -->
+
+__Keywords__: {{< var keyword >}}
+
+::: {.content-visible when-format="pdf"}
+<!-- %:::% vernacular-abstract keywords begin %:::% -->
+\begin{tabular}{p{2.3cm} p{13.6cm}}
+  \textbf{Keywords}: & Pregnancy. Sleep. Sleep-wake cycle. Sleep quality. Duration of sleep. Childbirth. Duration of childbirth. Actigraphy. MCTQ. PSQI. DASS.
+\end{tabular}
+<!-- %:::% vernacular-abstract keywords end %:::% -->
+:::

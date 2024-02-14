@@ -1,0 +1,29 @@
+<!-- %:::% index begin %:::% -->
+<!-- %:::% slides-preface begin %:::% -->
+
+<!-- %:::% slides-preface end %:::% -->
+<!-- %:::% slides-objectives begin %:::% -->
+
+<!-- %:::% slides-objectives end %:::% -->
+<!-- %:::% slides-introduction begin %:::% -->
+
+<!-- %:::% slides-introduction end %:::% -->
+<!-- %:::% slides-thesis-outline begin %:::% -->
+
+<!-- %:::% slides-thesis-outline end %:::% -->
+<!-- %:::% slides-methods begin %:::% -->
+
+<!-- %:::% slides-methods end %:::% -->
+<!-- %:::% slides-results begin %:::% -->
+
+<!-- %:::% slides-results end %:::% -->
+<!-- %:::% slides-discussion begin %:::% -->
+
+<!-- %:::% slides-discussion end %:::% -->
+<!-- %:::% slides-final-remarks begin %:::% -->
+
+<!-- %:::% slides-final-remarks end %:::% -->
+<!-- %:::% slides-references begin %:::% -->
+
+<!-- %:::% slides-references end %:::% -->
+<!-- %:::% index end %:::% -->

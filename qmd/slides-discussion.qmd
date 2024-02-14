@@ -1,0 +1,5 @@
+<!-- %:::% slides-discussion begin %:::% -->
+## Discussion {.smaller}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
+<!-- %:::% slides-discussion end %:::% -->

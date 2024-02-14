@@ -1,0 +1,40 @@
+<!-- %:::% .common h1 begin %:::% -->
+# The expression of the sleep-wake cycle throughout pregnancy
+<!-- %:::% .common h1 end %:::% -->
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+rutils:::quarto_status(
+  type = "drafting",
+  of_what = "of this thesis",
+  latex_parskip = "\\microskip"
+  )
+```
+
+::: {.callout-note}
+## Target journal
+
+1. [Chronobiology International](https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=icbi20) ([IF 2022: 2.8/JCR](https://jcr.clarivate.com/jcr/) | [A1/2017-2020](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf)).
+2. [Journal of Biological Rhythms](https://journals.sagepub.com/author-instructions/JBR) ([IF 2022: 3.5/JCR](https://jcr.clarivate.com/jcr/) | [A2/2017-2020](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf)).
+:::
+
+::: {.callout-note}
+The following study was performed by Alícia Rafaelly Vilefort Sales (__ARVS__), Daniel Vartanian (__DV__), Maria Augusta Medeiros de Andrade (__MAMA__), Mario Pedrazzoli (__MP__) and Christiane Borges do Nascimento Chofakian (__CBNC__).
+
+\microskip
+
+__ARVS__, __DV__ and __MAMA__ contributed to the study's  design. __ARVS__ implemented the study, performed the statistical analysis, and authored the manuscript. __CBNC__ and __MP__ served as scientific advisors. All authors participated in discussions about the results and contributed to the final manuscript revision.
+
+\microskip
+
+_Future reference_: Sales, A. R. V., Vartanian, D., Andrade, M. A. M., Pedrazzoli, M., & Chofakian, C. B. N. (2024). The expression of the sleep-wake cycle throughout pregnancy: a systematic and quantitative literature review. _Chronobiology International_.
+:::
