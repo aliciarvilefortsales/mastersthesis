@@ -5,7 +5,7 @@
 ::: {.column width="50%"}
 This thesis was presented to the School of Arts, Sciences and Humanities ([EACH](http://www5.each.usp.br/)) at the University of São Paulo ([USP](https://www5.usp.br/)), as a requirement for the degree of Master of Science by the Graduate Program in Nursing ([PPGE](http://www2.ee.usp.br/posgraduacao/ppge/index.php/home)).
 
-Financial support was provided by the Coordination for the Improvement of Higher Education Personnel ([CAPES]((https://www.gov.br/capes/)).
+Financial support was provided by the Coordination for the Improvement of Higher Education Personnel ([CAPES](https://www.gov.br/capes/)).
 :::
 
 ::: {.column width="50%"}

@@ -1,29 +1,126 @@
 <!-- %:::% index begin %:::% -->
 <!-- %:::% slides-preface begin %:::% -->
+## {visibility="hidden"}
 
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+## Hello, there 👋 {.smaller}
+
+This presentation will provide an overview of the thesis objectives, main concepts, methods, and results. Here is our itinerary.
+
+:::: {.columns}
+::: {.column width="47.5%"}
+(@) Object and objectives
+(@) Introduction to the main concepts
+  i) Biological rhythms and sleep
+  i) The expression of the sleep-wake cycle throughout pregnancy
+:::
+
+::: {.column width="47.5%"}
+(@) Thesis outline
+(@) Materials and methods
+(@) Main results
+(@) Discussion
+(@) Final remarks
+:::
+::::
 <!-- %:::% slides-preface end %:::% -->
+
 <!-- %:::% slides-objectives begin %:::% -->
+## Object and objectives {.smaller}
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
 <!-- %:::% slides-objectives end %:::% -->
+
 <!-- %:::% slides-introduction begin %:::% -->
+## Introduction {.smaller}
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
 <!-- %:::% slides-introduction end %:::% -->
+
 <!-- %:::% slides-thesis-outline begin %:::% -->
+## Thesis outline {.smaller}
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
 <!-- %:::% slides-thesis-outline end %:::% -->
+
 <!-- %:::% slides-methods begin %:::% -->
+## Methods {.smaller}
 
+* Problem approach method: Hypothetico-deductive method [@popper1979]
+* Procedure method: Statistical methods
+
+```{mermaid}
+%%| fig-width: 6.5
+
+flowchart LR
+  A[P1] --> B(TT)
+  B --> C[EE]
+  C --> D[P2]
+```
+
+## Hypothesis test {.smaller}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
+
+## Elegibility criteria {.smaller}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
+
+## Population {.smaller}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
+
+## Sample (raw) characteristics {.smaller}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
 <!-- %:::% slides-methods end %:::% -->
+
 <!-- %:::% slides-results begin %:::% -->
+## Results {.smaller}
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
 <!-- %:::% slides-results end %:::% -->
+
 <!-- %:::% slides-discussion begin %:::% -->
+## Discussion {.smaller}
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed scelerisque mi ac orci viverra hendrerit a porta nulla. Sed et sem eget turpis vehicula placerat eget sit amet odio. Ut fermentum dolor ut est mollis, nec fermentum ligula hendrerit. In et volutpat justo.
 <!-- %:::% slides-discussion end %:::% -->
+
 <!-- %:::% slides-final-remarks begin %:::% -->
+## Final remarks {.smaller}
 
+:::: {.columns}
+::: {.column width="50%"}
+This thesis was presented to the School of Arts, Sciences and Humanities ([EACH](http://www5.each.usp.br/)) at the University of São Paulo ([USP](https://www5.usp.br/)), as a requirement for the degree of Master of Science by the Graduate Program in Nursing ([PPGE](http://www2.ee.usp.br/posgraduacao/ppge/index.php/home)).
+
+Financial support was provided by the Coordination for the Improvement of Higher Education Personnel ([CAPES](https://www.gov.br/capes/)).
+:::
+
+::: {.column width="50%"}
+Thesis Supervisor: [Prof. Dr. Christiane Borges do Nascimento Chofakian](https://orcid.org/0000-0002-5953-3296).
+
+Area of concentration: Healthcare.
+
+You can learn more about this work at: <https://github.com/aliciarvilefortsales/mastersthesis>
+:::
+::::
 <!-- %:::% slides-final-remarks end %:::% -->
-<!-- %:::% slides-references begin %:::% -->
 
+<!-- %:::% slides-references begin %:::% -->
+# References {.smaller}
+
+::: {style="font-size: 0.75em;"}
+In accordance with the [American Psychological Association (APA) Style](https://apastyle.apa.org/), 7th edition.
+:::
+
+::: {#refs style="font-size: 0.75em;"}
+:::
 <!-- %:::% slides-references end %:::% -->
 <!-- %:::% index end %:::% -->

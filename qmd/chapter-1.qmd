@@ -34,6 +34,10 @@ All analyses in this document are reproducible and were conducted using the [R p
 
 Given its preliminary nature, not all chapters are ready for reading. However, the author has chosen to display the entire state of the thesis rather than presenting only polished sections. This approach provides readers with a more comprehensive understanding of the work in progress. Chapters not suitable for reading will include a call block indicating their status.
 
+```{=latex}
+\index{Test}
+```
+
 <!-- ## Literature review -->
 
 <!-- ## Thesis aims -->

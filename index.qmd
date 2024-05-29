@@ -4,4 +4,49 @@ execute:
 ---
 
 <!-- %:::% index begin %:::% -->
+# Introduction
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+rutils:::quarto_status(
+  type = "drafting",
+  of_what = "of this thesis",
+  latex_parskip = "\\microskip"
+  )
+```
+
+<!-- %:::% index pdf begin %:::% -->
+You are currently viewing the preliminary `r ifelse(env_vars$format == "pdf", "print", "web")` version of this master's thesis.
+
+This document follows the [collection of articles thesis](https://en.wikipedia.org/wiki/Collection_of_articles) format. This first chapter serves as an introduction to the thesis subject, providing its justification, aims, and a list of all projects and related activities produced during its development. The subsequent chapters consist of a series of articles connected to the thesis, with the exception of the last one, which encompasses a discussion and final remarks.
+
+::: {.content-visible when-format="html"}
+All analyses in this document are reproducible and were conducted using the [R programming language](https://www.r-project.org/) along with the [Quarto](https://quarto.org/) publishing system.
+:::
+
+::: {.content-visible when-format="pdf"}
+All analyses in this document are reproducible and were conducted using the [R programming language](https://www.r-project.org/) along with the [Quarto](https://quarto.org/) publishing system. It's worth noting that this type of thesis is best suited for online viewing. To access the digital version and see the latest research updates, please visit [https://aliciarvilefortsales.github.io/mastersthesis/](https://aliciarvilefortsales.github.io/mastersthesis/).
+:::
+
+Given its preliminary nature, not all chapters are ready for reading. However, the author has chosen to display the entire state of the thesis rather than presenting only polished sections. This approach provides readers with a more comprehensive understanding of the work in progress. Chapters not suitable for reading will include a call block indicating their status.
+
+```{=latex}
+\index{Test}
+```
+
+<!-- ## Literature review -->
+
+<!-- ## Thesis aims -->
+
+<!-- ## Projects developed -->
+
 <!-- %:::% index end %:::% -->
