@@ -59,4 +59,5 @@
 
 # # TODO
 #
-# *
+# * When uploading data from OSF, check if the ID from the file name
+#   matches the ID of the subject you're ana;yzing.

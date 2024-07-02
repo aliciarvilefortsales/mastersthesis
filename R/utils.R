@@ -1,1 +1,1 @@
-placeholder <- function(x) x
+placeholder <- function() {}

@@ -1,8 +1,40 @@
-ga_start <- function(ultrasound, ga) {
-  checkmate::assert_date(ultrasound, len = 1)
-  rutils:::assert_duration(ga)
+# library(checkmatem, quietly = TRUE)
+# library(cli, quietly = TRUE)
+# library(lubridate, quietly = TRUE)
+# library(rutils, quietly = TRUE)
 
-  ultrasound - ga
+#' Computes the gestational age start date
+#'
+#' This function computes the gestational age __start__ date given the
+#' ultrasound date and the __actual__ gestational age.
+#'
+#' @param ultrasound A [`Date`][base::as.Date()] object representing the
+#'  ultrasound date.
+#' @param ga A [`Period`][lubridate::period] object representing the
+#'   gestational age.
+#'
+#' @return A [`Date`][base::as.Date()] object representing the gestational age
+#'  start date.
+#' @export
+#'
+#' @examples
+#' ga_start(
+#'   ultrasound = lubridate::dmy("18/10/2022"),
+#'   ga = lubridate::weeks(6) + lubridate::days(3)
+#' )
+#' #> [1] "2022-09-03"
+#'
+#' ga_start(
+#'   ultrasound = lubridate::dmy("18/10/2022"),
+#'   ga = lubridate::period(1, "month") + lubridate::days(10)
+#' )
+#' #> [1] "2022-09-08"
+ga_start <- function(ultrasound, ga) {
+  checkmate::assert_date(ultrasound)
+  rutils:::assert_period(ga, lower = lubridate::period(0))
+  rutils:::assert_identical(ultrasound, ga, type = "length")
+
+  lubridate::as_date(ultrasound - ga)
 }
 
 ga_point <- function(ga_start, point) {
